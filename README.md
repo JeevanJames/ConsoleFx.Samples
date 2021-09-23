@@ -1,3 +1,2 @@
-# ConsoleFx Demos
-This repository contains demos for the ConsoleFx library.
-
+# ConsoleFx samples
+This repository contains code samples for the [ConsoleFx library](https://github.com/JeevanJames/ConsoleFx).

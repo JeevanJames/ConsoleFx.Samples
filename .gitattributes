@@ -1,0 +1,49 @@
+###############################
+# Git Line Endings            #
+###############################
+
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Force bash scripts to always use lf line endings so that if a repo is accessed
+# in Unix via a file share from Windows, the scripts will work.
+*.sh text eol=lf
+
+###############################
+# File handling               #
+###############################
+
+# Language diffs
+*.cs    diff=csharp
+*.css   diff=css
+*.html  diff=html
+
+# Typical binaries
+*.dll   binary diff=exif
+*.exe   binary diff=exif
+*.nupkg binary
+*.pdb   binary diff=exif
+*.snk   binary
+
+# Fonts
+*.eot   binary
+*.otf   binary diff=exif
+*.ttc   binary diff=exif
+*.ttf   binary diff=exif
+*.woff  binary
+*.woff2 binary
+
+# Images
+*.ai    binary diff=exif
+*.bmp   binary diff=exif
+*.gif   binary diff=exif
+*.hqx   binary
+*.icns  binary
+*.ico   binary
+*.jpeg  binary diff=exif
+*.jpg   binary diff=exif
+*.png   binary diff=exif
+*.psd   binary diff=exif
+*.svg   text
+*.tif   binary diff=exif
+*.tiff  binary diff=exif
